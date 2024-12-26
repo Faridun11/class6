@@ -1,0 +1,390 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+}
+
+header nav {
+    width: 100%;
+    background: rgb(188, 188, 188);
+    height: 70px;
+    padding: 20px 30px;
+    margin: auto;
+}
+
+header nav ul.left {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 650;
+    margin-top: -5px;
+}
+
+
+header nav ul.right {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+    margin: -45px 2px;
+    font-weight: 550;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header nav a:hover {
+    background-color: rgb(159, 157, 157);
+    border-radius: 3px;
+
+}
+
+header nav ul a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    padding: 5px 10px 7px;
+}
+
+header>nav>ul>li>a .dropdown1 {
+    display: block;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 15px 10px;
+    height: 120px;
+    background-color: rgba(169, 168, 168, 0.9);
+    bottom: -121px;
+    left: -14px;
+    display: none;
+}
+
+header>nav>ul>li>a:hover .dropdown1 {
+    display: inline-block;
+}
+
+header>nav>ul>li>a .dropdown {
+    display: block;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 15px 10px;
+    height: 120px;
+    background-color: rgba(169, 168, 168, 0.9);
+    bottom: -121px;
+    left: -12px;
+    display: none;
+
+}
+
+header>nav>ul>li>a:hover .dropdown {
+    display: inline-block;
+
+}
+
+header>nav>ul>li>a .dropdown2 {
+    display: block;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 15px 10px;
+    height: 120px;
+    background-color: rgba(169, 168, 168, 0.9);
+    bottom: -121px;
+    left: -8px;
+    display: none;
+}
+
+header>nav>ul>li>a:hover .dropdown2 {
+    display: inline-block;
+
+}
+
+header>nav>ul>li>a .dropdown3 {
+    display: block;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 15px 10px;
+    height: 120px;
+    background-color: rgba(169, 168, 168, 0.9);
+    bottom: -121px;
+    left: -13px;
+    display: none;
+}
+
+header>nav>ul>li>a:hover .dropdown3 {
+    display: inline-block;
+
+}
+
+header>nav>ul>li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    background-image: url(./fgd-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+section .card_wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 280px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section .card_wrapper .card {
+    width: 30%;
+    height: 400px;
+    background-color: rgba(136, 131, 131, 0.7);
+    display: inline-block;
+    margin: 1.0%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 50px;
+    transition-duration: 0.9s;
+}
+
+section .card_wrapper .card:hover {
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.9s;
+    background: rgba(13, 135, 135, 0.9);
+}
+
+section .card_wrapper .card p {
+    padding: 15px 40px;
+}
+
+section .card_wrapper .card button {
+    width: 150px;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+section .card_wrapper .card button:hover {
+    background-color: grey;
+    border: 2px solid grey;
+}
+
+section .card_wrapper .card .hover i {
+    position: relative;
+    display: inline-block;
+    color: white;
+    top: -320px;
+    right: 135px;
+    margin: 0px 0px;
+    font-size: 26px;
+    margin: 2px;
+    transition-duration: .3s;
+}
+
+section .card_wrapper .card .hover i:nth-child(1):hover {
+    color: rgb(0, 0, 255);
+    transition-duration: .3s;
+    font-size: 31px;
+}
+
+section .card_wrapper .card .hover i:nth-child(2):hover {
+    color: yellow;
+    transition-duration: .3s;
+    font-size: 31px;
+}
+
+section .card_wrapper .card .hover .hover1 i {
+    position: relative;
+    display: inline-block;
+    top: -353px;
+    left: 130px;
+    margin: 0px 0px;
+    font-size: 28px;
+    margin: 2px;
+    transition-duration: .3s;
+}
+
+section .card_wrapper .card .hover .hover1 i:nth-child(1):hover {
+    transition-duration: .3s;
+    color: green;
+    font-size: 33px;
+}
+
+section .card_wrapper .card .hover .hover1 i:nth-child(2):hover {
+    transition-duration: .3s;
+    color: red;
+    font-size: 33px;
+}
+
+section .card_wrapper .card .hover .hover1 .hover2 i {
+    position: relative;
+    display: inline-block;
+    color: white;
+    top: -40px;
+    left: -130px;
+    margin: 0px 0px;
+    font-size: 26px;
+    margin: 3px;
+    transition-duration: .3s;
+}
+
+section .card_wrapper .card .hover .hover1 .hover2 i:nth-child(1):hover {
+    color: black;
+    transition-duration: .3s;
+    font-size: 33px;
+}
+
+section .card_wrapper .card .hover .hover1 .hover2 i:nth-child(2):hover {
+    color: rgb(8, 130, 8);
+    transition-duration: .3s;
+    font-size: 33px;
+}
+
+section .card_wrapper .card .hover .hover1 .hover2 .hover3 i {
+    position: relative;
+    display: block;
+    top: -70px;
+    left: 135px;
+    margin: 0px 0px;
+    font-size: 27px;
+    transition-duration: .3s;
+}
+
+section .card_wrapper .card .hover .hover1 .hover2 .hover3 i:hover {
+    color: rgb(255, 0, 0);
+    transition-duration: .3s;
+    font-size: 33px;
+}
+
+main {
+    padding: 280px 150px 50px;
+}
+
+main h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+aside {
+    background-color: rgba(157, 155, 155, 0.8);
+    width: 240px;
+    height: 900px;
+    position: fixed;
+    top: 0;
+    left: -240px;
+    transition-duration: 0.5s;
+    z-index: 4;
+}
+
+aside ul {
+    position: relative;
+    top: 40px;
+    left: 8px;
+    margin: 0px 20px;
+}
+
+aside ul li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+
+aside ul i {
+    color: black;
+    margin: 0px 4px;
+}
+
+aside ul a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#checkbox {
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+}
+
+#checkbox:checked~aside {
+    left: 0;
+}
+
+.up {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 131, 131, 0.8);
+    padding: 16px 20px;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    padding: 20px 150px;
+}
+
+footer .div {
+    display: inline-block;
+    margin: 0px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+footer .div a {
+    text-decoration: none;
+}
+
+footer .div i {
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+    margin: 0px 10px;
+    transition-duration: .3s;
+}
+
+footer .div i:hover {
+    font-size: 28px;
+    transition-duration: .3s;
+    color:black;
+}
+
+footer .div i span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
